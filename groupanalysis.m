@@ -1,7 +1,7 @@
 function groupdata = groupanalysis
 
 % Function that analyzes the individual participant files for the data
-% reported in Kool, Wang, McGuir & Botvinick (2013). The individual data
+% reported in Kool, Wang, McGuire & Botvinick (2013). The individual data
 % can be found in the data directory.
 % 
 % USAGE: groupdata = groupanalysis.
@@ -165,6 +165,6 @@ end
 
 %% self control scale
 
-groupdata.selfControlScale = csvread('data/selfcontrolscale.csv',1,1);
+groupdata.selfControlScale = csvread('data/selfcontrolscale.csv');
 
 end
